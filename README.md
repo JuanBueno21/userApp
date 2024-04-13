@@ -36,3 +36,6 @@ La aplicación fue desarrollada con el objetivo de evaluar habilidades propias d
 
 El proyecto sigue una estructura modular que separa la lógica de negocio de la interfaz de usuario. Se emplea Riverpod para el manejo de estados y el enrutador para la navegación entre pantallas. Además, se utilizan widgets reutilizables para mejorar la mantenibilidad del código.
 
+## App Demo
+![demo](https://github.com/JuanBueno21/userApp/blob/main/demo/usersDemo.gif)
+
