@@ -1,7 +1,7 @@
 
 import '../models/user.dart';
 
-abstract class UserDataSource {
+abstract class UserRepository {
 
   Future <List<User>> getUsers();
 
