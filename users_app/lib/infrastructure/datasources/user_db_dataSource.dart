@@ -11,7 +11,7 @@ class UserdbDatasource extends UserDataSource {
 
   @override
   Future<List<User>> getUsers() async {
-    final response = await dio.get("/usersd");
+    final response = await dio.get("/users");
 
     List<User> userList = [];
 
