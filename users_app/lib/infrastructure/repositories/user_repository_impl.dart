@@ -1,6 +1,5 @@
 import 'package:users_app/domain/datasource/user_datasource.dart';
 import 'package:users_app/domain/models/user.dart';
-
 import '../../domain/repositories/user_repository.dart';
 
 class UserRepositoryImpl extends UserRepository {
@@ -18,3 +17,5 @@ class UserRepositoryImpl extends UserRepository {
     return datasource.getUserById(id);
   }
 }
+
+// esta implementacion me permite cambiar el origen de los datos

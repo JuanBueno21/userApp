@@ -3,9 +3,9 @@ import '../../domain/models/user.dart';
 
 class UserCell extends StatelessWidget {
   static const name = "user-cell";
-  User user;
+  final User user;
 
-  UserCell({super.key, required this.user});
+  const UserCell({super.key, required this.user});
 
   @override
   Widget build(BuildContext context) {
@@ -33,8 +33,6 @@ class UserCell extends StatelessWidget {
                   ],
                 ),
               ),
-
-
               Padding(
                 padding: const EdgeInsets.only(bottom: 20.0),
                 child: Row(
@@ -50,8 +48,6 @@ class UserCell extends StatelessWidget {
                   ],
                 ),
               ),
-
-
               Row(
                 children: [
                   const Align(
